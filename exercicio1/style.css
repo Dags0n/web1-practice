@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background-color: lightgray;
+}
+
+nav {
+  background-color: blue;
+  padding: 10px;
+  text-align: center;
+}
+
+#menu-div {
+  display: flex;
+  justify-content: center;
+}
+
+#menu-text {
+  color: white;
+  font-weight: 900;
+}
+
+#perfil {
+  border-radius: 50%;
+  max-height: 70px;
+  margin: 20px;
+}
+
+.grid {
+  background-color: white;
+  margin: 10px 20px 10px 20px;
+}

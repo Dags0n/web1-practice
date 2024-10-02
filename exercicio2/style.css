@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: lightgray;
+}
+
+#container {
+  background-color: rgb(245, 245, 245);
+}
+
+nav {
+  background-color: #333;
+}
+
+#div-nav {
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#div-nav span {
+    color: white;
+    text-decoration: none;
+}
+
+table {
+  width: 100%;
+}
+
+table th {
+  background-color: #333;
+  color: white;
+  border: 1px solid lightgray;
+}
+
+table td {
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+#div-padding {
+  padding: 10px;
+}
+
+input {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+}
