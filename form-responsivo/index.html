@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="container">
+    <div id="forms">
+      <form action="#">
+        <div class="form-input">
+          <label for="name">Nome:</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div class="form-input">
+          <label for="email">Email:</label>
+          <input type="text" name="email" id="email" required />
+        </div>
+        <div class="form-input">
+          <label for="password">Senha:</label>
+          <input type="password" name="password" id="password" required />
+        </div>
+        <div class="form-input">
+          <label for="gender">Gênero:</label>
+          <select name="gender" id="gender">
+            <option value="masc" selected>Masculino</option>
+            <option value="fem">Feminino</option>
+          </select>
+        </div>
+        <div class="form-input">
+          <label for="message">Mensagem:</label>
+          <textarea name="message" id="message" required></textarea>
+        </div>
+        <div>
+          <Button type="submit">Enviar</Button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
